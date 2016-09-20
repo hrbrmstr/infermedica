@@ -1,0 +1,20 @@
+Package: infermedica
+Type: Package
+Title: R API Interface to the Infermedica API
+Version: 0.1.0
+Date: 2016-09-20
+Author: Bob Rudis (bob@@rud.is)
+Maintainer: Bob Rudis <bob@rud.is>
+Description: R API Interface to the Infermedica API
+URL: http://gitlab.com/hrbrmstr/infermedica
+BugReports: https://gitlab.com/hrbrmstr/infermedica/issues
+License: AGPL
+Suggests:
+    testthat
+Depends:
+    R (>= 3.0.0)
+Imports:
+    httr,
+    dplyr,
+    jsonlite
+RoxygenNote: 5.0.1
