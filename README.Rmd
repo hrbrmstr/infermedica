@@ -21,6 +21,11 @@ The following functions are implemented:
 - `im_searc`:	Returns list of observations matching the given phrase from Infermedica API
 - `im_start_diagnosis`:	Start building a diagnosis request object for the Infermedica API
 
+### TODO
+
+- implement `explain`
+- implement missing components in `diagnosis`
+
 ### Installation
 
 ```{r eval=FALSE}

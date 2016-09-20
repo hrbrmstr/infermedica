@@ -18,6 +18,11 @@ The following functions are implemented:
 -   `im_searc`: Returns list of observations matching the given phrase from Infermedica API
 -   `im_start_diagnosis`: Start building a diagnosis request object for the Infermedica API
 
+### TODO
+
+-   implement `explain`
+-   implement missing components in `diagnosis`
+
 ### Installation
 
 ``` r
@@ -30,7 +35,7 @@ devtools::install_git("https://gitlab.com/hrbrmstr/infermedica.git")
 
 ### Test Results
 
-    ## [1] "Tue Sep 20 11:30:53 2016"
+    ## [1] "Tue Sep 20 11:40:07 2016"
 
     ## testthat results ========================================================================================================
     ## OK: 0 SKIPPED: 0 FAILED: 0
