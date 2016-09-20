@@ -1,5 +1,7 @@
 
-`infermedica` : R API Interface to the Infermedica API
+`infermedica` : R Interface to the Infermedica API
+
+A set of tools that provide programmatic access to the Infermedica medical inference engine API. Functions are provided that enable uploading of patient’s health data (such as symptoms, risk factors, lab tests results or demographics) to the Infermedica AI inference engine which will analyze it and return a list of likely conditions and relevant observations to verify. For more information please visit <http://infermedica.com>.
 
 The following functions are implemented:
 
@@ -35,7 +37,7 @@ devtools::install_git("https://gitlab.com/hrbrmstr/infermedica.git")
 
 ### Test Results
 
-    ## [1] "Tue Sep 20 11:46:04 2016"
+    ## [1] "Tue Sep 20 11:54:09 2016"
 
     ## testthat results ========================================================================================================
     ## OK: 0 SKIPPED: 0 FAILED: 0

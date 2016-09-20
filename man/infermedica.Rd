@@ -4,9 +4,14 @@
 \name{infermedica}
 \alias{infermedica}
 \alias{infermedica-package}
-\title{R API Interface to the Infermedica API}
+\title{Interface to the Infermedica API}
 \description{
-R API Interface to the Infermedica API
+A set of tools that provide programmatic access to the Infermedica medical
+inference engine API. Functions are provided that enable uploading of patient’s health
+data (such as symptoms, risk factors, lab tests results or demographics) to the
+Infermedica AI inference engine which will analyze it and return a list of likely
+conditions and relevant observations to verify. For more information please visit
+\url{http://infermedica.com}.
 }
 \author{
 Bob Rudis (bob@rud.is)
