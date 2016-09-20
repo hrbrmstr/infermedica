@@ -15,7 +15,7 @@ The following functions are implemented:
 -   `im_list_risk_factors`: Retrieve list of risk factors from Infermedica API
 -   `im_list_symptoms`: Retrieve list of symptoms from Infermedica API
 -   `im_lookup`: Returns a single observation matching given phrase from Infermedica API
--   `im_searc`: Returns list of observations matching the given phrase from Infermedica API
+-   `im_search`: Returns list of observations matching the given phrase from Infermedica API
 -   `im_start_diagnosis`: Start building a diagnosis request object for the Infermedica API
 
 ### TODO
@@ -35,7 +35,7 @@ devtools::install_git("https://gitlab.com/hrbrmstr/infermedica.git")
 
 ### Test Results
 
-    ## [1] "Tue Sep 20 11:40:07 2016"
+    ## [1] "Tue Sep 20 11:46:04 2016"
 
     ## testthat results ========================================================================================================
     ## OK: 0 SKIPPED: 0 FAILED: 0
